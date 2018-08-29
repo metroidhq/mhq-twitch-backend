@@ -1,0 +1,30 @@
+{
+  "name": "mhq-twitch-backend",
+  "version": "0.0.1",
+  "description": "MHQ Twitch Backend",
+  "engines": {
+    "node": "6.5.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "cors": "2.8.4",
+    "dotenv": "6.0.0",
+    "express": "4.15.2",
+    "mongoose": "5.2.10",
+    "twitch-api-v5": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "metroid",
+    "metroidhq",
+    "twitch"
+  ],
+  "license": "MIT"
+}
